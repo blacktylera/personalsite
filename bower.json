@@ -1,0 +1,21 @@
+{
+  "name": "personalsite",
+  "version": "0.0.1",
+  "homepage": "https://github.com/blacktylera/personalsite",
+  "authors": [
+    "Tyler Black <blacktylera@gmail.com>"
+  ],
+  "description": "My personal website.",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "skeleton": "~2.0.4"
+  }
+}
