@@ -35,12 +35,12 @@ h5 {
 }
 
 .fa.fa-angle-double-down.fa-5x {
-	position: fixed;
+	position: absolute;
 	color: #FF704D;
-	margin-left: 37%;
-	margin-right: auto;
-	margin-bottom: 4%;
 	-webkit-animation:bounce 1.5s infinite;
+	margin-left: 44%;
+	margin-right: auto;
+	margin-bottom: 30%;
 
 
 }
@@ -54,6 +54,20 @@ h5 {
 .arrowdown {
 	margin-top: 10px;
 	background-color: #E0FFF0;
-	height: 193px;
+	height: 240px;
 	border-top: 10px solid #FF704D
+}
+
+.tylerhead {
+	max-width: 250px;
+	max-height: 250px;
+	margin-top: 20px;
+	border-radius: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.aboutmeheader {
+	text-align: center
 }
