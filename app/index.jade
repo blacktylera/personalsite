@@ -5,9 +5,24 @@ html(lang='en-US')
     meta(http-equiv='X-UA-Compatible', content='IE=edge')
     meta(name='viewport', content='width=device-width, initial-scale=1')
     title hey, i'm tyler...
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Poiret+One|Rock+Salt')
     link(rel='stylesheet', href='../vendor/skeleton/css/skeleton.css')
     link(rel='stylesheet', href='../vendor/skeleton/css/normalize.css')
     link(rel='stylesheet', href='css/main.css')
   body
       <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-    h1 test
+    .container
+      .row
+        .u-full-width.header
+          img.profile_image(src="assets/headerbackground.jpg")
+          h1.header-name Tyler Black
+          h6.header-sub developer/designer/creative
+      .row.menu
+        .three.columns
+          h5 About me
+        .three.columns
+          h5 Portfolio
+        .three.columns
+          h5 Resume
+        .three.columns
+          h5 Other fun things
