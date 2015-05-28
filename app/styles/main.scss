@@ -1,4 +1,6 @@
-
+body {
+	background-color: 
+}
 
 .header-name {
 	position: absolute;
@@ -25,7 +27,7 @@
 h5 {
 	text-align: center;
 	background-color: #F0F0F0;
-	font-family:'Poiret One', bold;
+	font-family:'Raleway';
 	margin-bottom: 0px
 }
 
@@ -61,7 +63,7 @@ h5 {
 .tylerhead {
 	max-width: 250px;
 	max-height: 250px;
-	margin-top: 20px;
+	margin-top: 40px;
 	border-radius: 50%;
 	display: block;
 	margin-left: auto;
@@ -69,5 +71,8 @@ h5 {
 }
 
 .aboutmeheader {
-	text-align: center
+	text-align: center;
+	font-family: 'Raleway';
+	padding-left: 30px;
+	margin-top: 60px
 }
