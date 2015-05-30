@@ -33,7 +33,12 @@ h5 {
 
 .menu {
 	background-color: #F0F0F0;
-	padding: 20px
+	padding: 20px;
+	position: static;
+}
+
+.content {
+	margin-top: 200px;
 }
 
 .fa.fa-angle-double-down.fa-5x {
@@ -64,7 +69,7 @@ h5 {
 }
 
 .arrowdown {
-	margin-top: 10px;
+	margin-top: 8px;
 	background-color: #E0FFF0;
 	height: 240px;
 	border-top: 10px solid #FF704D
@@ -246,7 +251,7 @@ h5 {
 
 .jadelogo {
 	height: 75px;
-	width: 75px;
+	width: 100px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -261,9 +266,13 @@ h5 {
 }
 
 .firebaselogo {
-	height: 60px;
+	height: 50px;
 	width: 250px;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.sticky-wrapper.is-sticky {
+	width: 79.1%;
 }
