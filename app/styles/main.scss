@@ -34,7 +34,6 @@ h5 {
 .menu {
 	background-color: #F0F0F0;
 	padding: 20px;
-	position: static;
 }
 
 .content {
@@ -109,8 +108,10 @@ h5 {
 	width: 300px;
 	height: 250px;
 	display: block;
-	margin-left: 0px;
-	margin-right: 0px;
+	margin-left: auto;
+	margin-top: 6%;
+	margin-bottom: 3%;
+	margin-right: auto;
 	border-radius: 10px;
 }
 
@@ -133,8 +134,10 @@ h5 {
 	width: 300px;
 	height: 250px;
 	display: block;
-	margin-left: 0px;
-	margin-right: 500px;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top: 8%;
+	margin-bottom: 3%;
 	border-radius: 10px;
 }
 
@@ -273,6 +276,17 @@ h5 {
 	margin-right: auto;
 }
 
-.sticky-wrapper.is-sticky {
-	width: 79.1%;
+div#menu-sticky-wrapper.sticky-wrapper.is-sticky div#menu.row.menu {
+	width: 72.8%;
 }
+
+.spaceracetext {
+	padding-left: 3px;
+	text-align: center;
+}
+
+.baconbeachtext {
+	text-align: center;
+}
+
+

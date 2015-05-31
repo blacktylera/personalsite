@@ -21,7 +21,7 @@ html(lang='en-US')
           h6.header-sub developer/designer/creative
       .row.menu#menu
         .three.columns
-          h5 About me
+          a(href='#aboutmeheader') About Me
         .three.columns
           h5 Portfolio
         .three.columns
@@ -32,7 +32,7 @@ html(lang='en-US')
         .five.columns.toparrowheader
         .two.columns
           .fa.fa-angle-double-down.fa-5x
-        .five.columns.toparrowheader
+        .five.columns.toparrowheader#aboutmeheader
       .row.aboutme
         .four.columns
           img.tylerhead(src="assets/tylerhead.jpg")
@@ -49,19 +49,19 @@ html(lang='en-US')
         .u-full-width
           h4 Bacon Beach
       .row.portfoliobody1
-        .four.columns
+        .five.columns
           img.baconbeach(src="http://cdn.makeagif.com/media/5-28-2015/OmdKQE.gif")
-        .eight.columns
+        .seven.columns.baconbeachtext
           p Bacon Beach is representative of the things that people love most in life: bacon and beaches. I wanted to make a fun game that could be adapted for mobile relatively easily. This game was made using Phaser, a JavaScript library used to develop 2D games, and was my front end capstone at Nashville Software School. The goal of the game is to collect as much bacon, flying pigs, and hearts as possible and avoid broccoli. The game gets progressively harder, as broccoli will start falling at a faster pace. Yes, that's right, broccoli kills you.
           p This was my first project in Phaser, and I loved everything about it. Learning the library was very rewarding, and designing, creating, and editing the artwork for the game was incredibly fun.
       .row.portfoliosubheader
         .u-full-width
           h4 Space Race
       .row.portfoliobody2
-        .eight.columns
+        .seven.columns.spaceracetext
            p Space Race is all about winning the intergalactic race. It is a four player game, so you will need friends to play, but that's what makes it fun! In Space Race, the player is 1 of 4 characters: A USA astronaut, a USA engineer, a USSR astronaut, or a USSR engineer. The players have to work together to travel through space, and the first one to fall off of the map loses. It is an engineers job to place platforms, and an astronauts job to land on said platforms to continue the space race. Every platform the engineer can place is different. Some are sticky, some hurt you, and some can even give you warp speed! So, strategy is definitely involved.
            p This was my second Phaser project. I worked on it over one weekend at Hack Tennessee 7 with a group of five other amazing people. My primary responsibilities for Space Race were character design, platform design, and phaser sprite implementations.
-        .four.columns
+        .five.columns
           img.spacerace(src="http://cdn.makeagif.com/media/5-28-2015/tvP3ah.gif")
       .row.technnologiesheader
         .u-full-width
