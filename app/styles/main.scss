@@ -1,6 +1,4 @@
-body {
-	background-color: 
-}
+
 
 .header-name {
 	position: absolute;
@@ -48,7 +46,7 @@ h5 {
 	-moz-animation:bounce 1.5s infinite;
 	margin-left: 44%;
 	margin-right: auto;
-	margin-bottom: 287%;
+	margin-bottom: 330%;
 	text-align: center
 
 
@@ -129,9 +127,13 @@ h5 {
 }
 
 .row.portfoliobody2 {
-
 	margin-top: 30px;
 }
+
+.row.portfoliobody3 {
+	margin-top: 30px;
+}
+
 
 .spacerace {
 	width: 300px;
@@ -139,8 +141,19 @@ h5 {
 	display: block;
 	margin-left: auto;
 	margin-right:auto;
-	margin-top: 8%;
+	margin-top: 10%;
 	margin-bottom: 3%;
+	border-radius: 10px;
+}
+
+.theugly {
+	width: 300px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-top: 10%;
+	margin-bottom: 3%;
+	margin-right: auto;
 	border-radius: 10px;
 }
 
